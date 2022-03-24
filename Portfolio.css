@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.nav-bar{
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0,0,0,0.3);
+    padding: 20px;
+    
+
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: auto 20px;
+
+}
+li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: deepskyblue;
+    
+    
+}
+header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: midnightblue;
+    display: flex;
+    
+    
+
+}
+.intro-text{
+   width: 80%;
+   height: 80vh;
+   display: flex;
+   justify-content: center;
+   align-items: left;
+   flex-direction: column;
+   
+}
+
+.intro-text h1{
+    color: deepskyblue;
+    margin-left: 30px;
+    font-size: 40px;
+    
+}
+.intro-text h2{
+    color: deepskyblue;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.proj{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.proj h1{
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+.project-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+

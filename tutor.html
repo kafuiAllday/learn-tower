@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter game</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            
+        }
+
+        .game{
+            width: 20%;
+            background-color: lightgray;
+            height: 20vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: sans-serif;
+            margin-top: 20px;
+            padding: 10px;
+        
+        
+
+        }
+        span{
+            font-size: 30px;
+            font-weight: 600;
+            margin: 5px;
+        }
+        button{
+            padding: 5px;
+            border: 0;
+            border-radius: 4px;
+        }
+        
+        
+
+
+
+    </style>
+</head>
+<body>
+   <div class="game">
+       <span id="gmScore1">0</span>
+       <span id="gmScore2">0</span>
+       <div>
+        <select name="" id="">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+       </div>
+      
+<div>
+
+    <button class="up">+player1</button>
+    <button class="up1">+player2</button>
+    <button class="reset">reset</button>
+</div>
+       
+   </div>
+    <script src="tutor.js"></script>
+</body>
+
+</html> 
