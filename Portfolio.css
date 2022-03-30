@@ -7,40 +7,45 @@
     font-family: 'Poppins', sans-serif;
     
 }
-.nav-bar{
-    position: absolute;
-    z-index: 4;
+nav{
     width: 100%;
-    height: 10vh;
-    background-color: rgba(0,0,0,0.3);
     padding: 20px;
-    
-
-}
-ul{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    list-style: none;
-    margin: auto 20px;
+    align-items: center;
+    background-color: rgb(0,0,0,0.3);
+
+
+}  
+nav p{
+    font-weight: bold;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    margin-left: 50px;
+}
+nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    margin-right: 80px;
 
 }
-li a{
-    text-decoration: none;
-    font-size: 18px;
-    color: deepskyblue;
-    
-    
+nav ul li{
+    margin: 0 10px;
+    padding: 0 20px;
 }
+nav ul li a{
+    text-decoration: none;
+    color: deepskyblue;
+}
+ 
+
 header{
     width: 100%;
     height: 100vh;
-    position: relative;
-    background-color: midnightblue;
-    display: flex;
-    
-    
 
+    background-color: midnightblue;
 }
 .intro-text{
    width: 80%;
@@ -56,52 +61,153 @@ header{
     color: deepskyblue;
     margin-left: 30px;
     font-size: 40px;
+    letter-spacing: 2px;
     
 }
 .intro-text h2{
     color: deepskyblue;
     margin-left: 30px;
     font-size: 30px;
+    letter-spacing: 3px;
 }
 
 .proj{
     width: 100%;
     height: auto;
-    text-align: center;
+    
 }
 .proj h1{
     font-size: 30px;
     padding-top: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: midnightblue;
+    text-transform: uppercase;
 }
 
 .project-container{
-    display: flex;
-    justify-content: space-around;
     margin-top: 40px;
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     flex-flow: wrap;
+    width: 100%;
 
 
+    
 }
-.item{
+.items{
     width: 300px;
     height: 300px;
-    border: 1px solid #555;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    position: relative;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.3);
     border-radius: 5px;
-    box-sizing: border-box;
-    margin: 40px;
+    background-image: url(/App/denise.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 50px;
+    
 }
-.item p{
-    color: #555;
-    font-size: 14px;
+.text{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 90px;
+    padding: 15px 10px;
+
 }
-.item button{
-    padding: 7px 13px;
-    margin-top: 10px;
-    border: 0;
-    border-radius: 5px;
-    background-color: midnightblue;
+.text a{
+    margin-top: 15px;
+    text-decoration: none;
     color: deepskyblue;
+    padding: 7px 13px;
+    display: block;
+    text-transform: uppercase;
 }
+.text h3{
+    color: deepskyblue;
+    text-transform: uppercase;
+}
+.socialicons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 80px;
+    width: 80%;
+    margin: auto;
+}
+.tw{
+    font-size: 50px;
+}
+.fb{
+    font-size: 50px;
+
+}
+.gm{
+    font-size: 50px;
+}
+.contacts{
+    padding-top: 60px;
+    text-align: center;
+    width: 100%;
+
+}
+.contacts h1{
+    text-transform: uppercase;
+    color: midnightblue;
+    letter-spacing: 3px;
+    font-size: 30px;
+
+}
+button{
+    color: midnightblue;
+    display: none;
+}
+
+
+
+
+@media (max-width:480px) {
+    .items{
+        width: 250px;
+        height: 250px;
+       
+    }
+    nav ul{
+        position: fixed;
+        background-color: whitesmoke;
+        width: 50%;
+        top: 13%;
+        flex-direction: column;
+        text-align: center;
+        left: 10%;
+        box-shadow: 0 0 5px rgba(0,0,0,0.3);
+        transform: translateX(180%);
+    }
+    nav ul li{
+        margin: 10px;
+    }
+    
+    nav ul li a{
+        color: midnightblue;
+        font-weight: bold;
+    }
+    button{
+        display: block;
+        padding: 5px 4px;
+
+    }
+    nav ul.show{
+        transform: translateX(0);
+    }
+    
+}
+
+
+
+
+    
+    
+
+    
+
 
