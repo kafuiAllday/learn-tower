@@ -134,7 +134,7 @@ header{
 }
 .tw{
     font-size: 28px;
-    font-family: sans-serif;
+
     width: 300px;
     height: 170px;
     box-shadow: 0 0 8px rgba(0,0,0,0.3);
@@ -144,7 +144,7 @@ header{
 }
 .fb{
     font-size: 28px;
-    font-family: sans-serif;
+    
     width: 300px;
     height: 170px;
     box-shadow: 0 0 8px rgba(0,0,0,0.3);
@@ -154,7 +154,7 @@ header{
 }
 .gm{
     font-size: 28px;
-    font-family: sans-serif;
+    
     width: 300px;
     height: 170px;
     box-shadow: 0 0 8px rgba(0,0,0,0.3);
@@ -183,6 +183,7 @@ header{
     text-align: center;
     width: 100%;
     height: 60vh;
+    padding-bottom: 40px;
 
 }
 .contacts h1{
