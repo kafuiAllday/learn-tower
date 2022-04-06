@@ -38,6 +38,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: deepskyblue;
+    letter-spacing: 1.5px;
 }
  
 
@@ -212,21 +213,27 @@ button{
     nav ul{
         position: fixed;
         background-color: whitesmoke;
-        width: 50%;
-        top: 13%;
+        width: 80%;
+        height: 50vh;
+        top: 10%;
         flex-direction: column;
         text-align: center;
+        z-index: 9;
         left: 10%;
         box-shadow: 0 0 5px rgba(0,0,0,0.3);
         transform: translateX(180%);
+        transition: .3s;
     }
     nav ul li{
-        margin: 10px;
+        margin: 25px;
     }
     
     nav ul li a{
         color: midnightblue;
         font-weight: bold;
+        font-size: 20px;
+        text-transform: uppercase;
+        
     }
     button{
         display: block;
@@ -240,6 +247,7 @@ button{
         display: flex;
         flex-direction: column;
     }
+    
     
 }
 @media (max-width:800px) {

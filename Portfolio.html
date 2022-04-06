@@ -78,10 +78,18 @@
     <script>
         let button=document.querySelector('button');
         let nav=document.querySelector('nav ul');
+        let nitems=document.querySelectorAll('nav ul li a');
 
         button.addEventListener('click',function(){
             nav.classList.toggle('show')
         })
+
+        nitems.forEach(item =>{
+            item.addEventListener('click', () =>{
+                nav.classList.toggle('show');
+            })
+        })
+
     </script>
 </body>
 </html>
