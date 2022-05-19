@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+p{
+    font-weight: 300;
+    color: #111;
+}
+.banner{
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(food2.jpg);
+    background-size: cover;
+}
+.banner .content{
+    max-width: 900px;
+    text-align: center;
+
+}
+.content h2{
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+}
+.content p{
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+}
+.content a{
+    font-size: 1em;
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid white;
+    padding: 12px 25px;
+    background-color: rgb(187, 14, 14);
+    letter-spacing: 1.9px;
+    border-radius: 3px;
+}
+
+
+header{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    z-index: 10;
+}
+header ul li{
+    display: inline;
+
+}
+header h2{
+    color: brown;
+    font-weight: 2em;
+    margin-left: 20px;
+}
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+header ul li a :hover{
+    color: brown;
+}
+
+section{
+    padding: 100px;
+}
+.row{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.row .col{
+    width: 48%;
+    position: relative;
+}
+
+.row .col .imgBx{
+    position: relative;
+    width: 100%;
+    height: 300px;
+} 
+.row .col .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.row .col h2{
+    font-size: 2em;
+    font-weight: 300;
+    color: brown;
+}
+.row .col p{
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.menu{
+    width: 100%; 
+    
+}
+ .title h2{
+    color: brown;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+.title p{
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container .food-box{
+    width: 320px;
+    height: 320px;
+    border: 1px solid black;
+    margin: 30px;
+    border: 15px solid white;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.3);
+}
+.food-box .box1{
+    width: 100%;
+    height: 100%;
+    
+
+}
+.food-box .box1 img{
+    width: 100%;
+    height: 90%;    
+    object-fit: cover;
+}
+.food-box h3{
+    color: #777;
+    margin-top: -20px;  
+}
+.chef h2{
+    text-align: center;
+    font-size: 3rem;
+    color: brown;
+    font-weight: 300;
+}
+
+.container .chef-bx{
+    width: 320px;
+    height: 360px;
+    margin: 20px;
+}
+.chef-bx .chef-img{
+    width: 100%;
+    height: 100%;
+}
+.chef-img img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.chef .container{
+    padding-top: 30px;
+
+}
+.chef-bx .name{
+    padding: 10px 0 10px;
+    color: brown;
+    font-weight: 300;
+}
+.chef{
+    background-color: rgb(243, 243, 243);
+}
