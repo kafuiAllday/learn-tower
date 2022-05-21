@@ -10,13 +10,14 @@
 <body>
     <header>
         <h2>Basi</h2>
+        <button class="btn">del</button>
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#menu">Menu</a></li>
             <li><a href="#chef">Chef</a></li>
             <li><a href="#contact">Contact</a></li>
-        
+             
         </ul>
     </header>
     <section id="banner" class="banner">
@@ -152,5 +153,23 @@
     <div class="copyrightText">
         <p>Copyright &copy; 2022 by Kafui</p>
     </div>
+    <script >
+        let btn = document.querySelector('button')
+        let header = document.querySelector('header ul')
+        let links = document.querySelector('header ul li a');
+
+
+        btn.addEventListener('click', function(){
+            header.classList.toggle('move')
+        })
+        links.forEach(element => {
+            element.addEventListener('click',()=>{
+                header.classList.toggle('move')
+            })
+            
+        });
+
+        
+    </script>
 </body>
 </html>
