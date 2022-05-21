@@ -124,6 +124,13 @@ section{
     margin-top: 10px;
     
 }
+hr{
+    width: 84%;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    
+
+}
 
 .menu{
     width: 100%; 
