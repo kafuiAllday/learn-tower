@@ -8,6 +8,13 @@ p{
     font-weight: 300;
     color: #111;
 }
+.mid{
+    width: 600px;
+    background-color: black;
+    color: white;
+    opacity: .5;
+    border-radius: 8px;
+}
 .banner{
     position: relative;
     display: flex;
