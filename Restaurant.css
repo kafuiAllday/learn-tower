@@ -128,8 +128,7 @@ hr{
     width: 84%;
     margin: auto;
     color: rgb(255, 255, 255);
-    
-
+    text-decoration-thickness: 0.3em;
 }
 
 .menu{
@@ -296,6 +295,9 @@ header btn{
     }
     header .btn{
         display: block;
+        color: brown;
+        font-size: 18px;
+        border: 0;
     }
     header ul.move{
         transform: translateX(0);
