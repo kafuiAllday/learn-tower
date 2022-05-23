@@ -299,9 +299,10 @@ header btn{
 
 header .btn{
         display: block;
-        color: brown;
+        color: burlywood;
         font-size: 18px;
         border: 0;
+        background-color: brown;
     }
     header ul.move{
         transform: translateX(0);
@@ -336,9 +337,104 @@ header .btn{
         border: 11px solid white;
         box-shadow: 0 3px 18px rgba(0,0,0,0.3);
 }
+.banner .content{
+    max-width: 600px;
+
+} 
+.content h2{
+    font-size: 3rem;
+}
+.mid {
+    width: 400px;
+}
+section{
+    padding: 60px;
+}
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.chef h2{
+    font-size: 2rem;
+}
+
+.chef .container{
+    padding-top: 20px;
+
+}
+.contact-form{
+    margin-top: 40px;
+    padding: 40px 30px;
+    background-color: #fff;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.3);
+    max-width: 500px;
+    
+}
+
 
 }
 
+
+@media (max-width:480px){
+    section .contact{
+        padding: 40px;
+    }
+    .cont-text h2{
+        font-size: 2rem;
+    }
+    .contact-form{
+        margin-top: 20px;
+        padding: 30px 20px;
+        box-shadow: 0 5px 35px rgba(0,0,0,0.3);
+        max-width: 400px;
+        
+    }
+    .content h2{
+        font-size: 2.3rem;
+    }
+    .content p{
+        font-size: .9rem;
+    }
+    .row .col h2{
+        font-size: 1.6rem;
+    }
+    .row .col p{
+        font-size: .8rem;
+    }
+    .row .col .imgBx{
+        position: relative;
+        height: 200px;
+    }   
+    .container .food-box{
+        width: 240px;
+        height: 240px;
+        margin: 15px;
+        border: 10px solid white;
+        box-shadow: 0 3px 18px rgba(0,0,0,0.3);
+} 
+.title h2{
+    font-size: 2rem;
+}
+.title p{
+    font-size: .9rem;
+}
+.mid {
+    width: 300px;
+}
+.contact-form{
+    margin-top: 20px;
+    padding: 20px 30px;
+    max-width: 400px;
+    
+}
+.cont-text h2{
+    font-size: 1.8rem;
+
+}
+    
+
+}
 
 
     
