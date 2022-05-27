@@ -203,16 +203,20 @@ button{
 .about{
     width: 100%;
     height: 61vh;
-    padding-top: 100px;
+    padding: 100px;
     text-align: center;
-
+    background-color: rgb(243,243,243);
 }
 .about h1{
     color: midnightblue;
     font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 3px;
-
+}
+hr{
+    color: deepskyblue;
+    width: 87%;
+    margin: 0 auto;
 }
 .about-text{
     width: 80%;
@@ -220,6 +224,8 @@ button{
     font-size: 17px;
     padding-top: 30px;
     letter-spacing: 1.5px;
+    text-align: left;
+    color: deepskyblue;
 }
 
 
@@ -234,13 +240,13 @@ button{
     nav ul{
         position: fixed;
         background-color: whitesmoke;
-        width: 80%;
-        height: 50vh;
+        width: 100%;
+        height: 100vh;
         top: 10%;
         flex-direction: column;
         text-align: center;
         z-index: 9;
-        left: 10%;
+        left: 0;
         box-shadow: 0 0 5px rgba(0,0,0,0.3);
         transform: translateX(180%);
         transition: .3s;
@@ -301,6 +307,38 @@ button{
         border-radius: 10px;
         box-sizing: border-box;
         padding: 15px;}
+    
+        nav ul{
+            position: fixed;
+            background-color: whitesmoke;
+            width: 100%;
+            height: 100vh;
+            top: 10%;
+            flex-direction: column;
+            text-align: center;
+            z-index: 9;
+            left: 0;
+            box-shadow: 0 0 5px rgba(0,0,0,0.3);
+            transform: translateX(180%);
+            transition: .3s;
+        }  
+        nav ul.show{
+            transform: translateX(0);
+        }
+        nav ul li{
+            margin: 35px;
+        }
+        nav ul li a{
+            color: midnightblue;
+            font-size: 1.4rem;
+        }
+        button{
+            display: block;
+            padding: 5px 4px;
+    
+        }
+    
+    }
 
 
 
