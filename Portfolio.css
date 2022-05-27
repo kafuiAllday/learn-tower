@@ -203,7 +203,7 @@ button{
 .about{
     width: 100%;
     height: 61vh;
-    padding: 100px;
+    padding: 90px;
     text-align: center;
     background-color: rgb(243,243,243);
 }
@@ -214,7 +214,6 @@ button{
     letter-spacing: 3px;
 }
 hr{
-    color: deepskyblue;
     width: 87%;
     margin: 0 auto;
 }
@@ -225,7 +224,17 @@ hr{
     padding-top: 30px;
     letter-spacing: 1.5px;
     text-align: left;
-    color: deepskyblue;
+    color: midnightblue;
+}
+.copyrightText{
+    min-height: 7vh;
+    text-align: center;
+    background-color: #333;
+}
+.copyrightText p{
+    font-size: 15px;
+    color: whitesmoke;
+    padding-top: 15px;
 }
 
 
@@ -258,7 +267,7 @@ hr{
     nav ul li a{
         color: midnightblue;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 12px;
         text-transform: uppercase;
         
     }
@@ -273,6 +282,18 @@ hr{
     .socialicons{
         display: flex;
         flex-direction: column;
+    }
+    .about-text{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 12px;
+        padding-top: 10px;
+        text-align: left;
+        color: midnightblue;
+    }
+    .about{
+        padding: 10px;
+        text-align: center;
     }
     
     
@@ -337,7 +358,14 @@ hr{
             padding: 5px 4px;
     
         }
-    
+        .about{
+            padding: 20px;
+            text-align: center;
+        }
+        .about-text{
+
+            color: midnightblue;
+        }
     }
 
 
