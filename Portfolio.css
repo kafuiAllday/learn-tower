@@ -295,6 +295,10 @@ hr{
         padding: 10px;
         text-align: center;
     }
+    .contacts{
+        padding-top: 60px;
+        height: 120vh;
+    }
     
     
 }
